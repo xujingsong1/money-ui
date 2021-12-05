@@ -11,6 +11,7 @@ const config = {
   outputRoot: 'dist',
   plugins: [],
   defineConstants: {
+    GQL_URL: '"http://101.43.49.211:3000/graphql"',
   },
   copy: {
     patterns: [
